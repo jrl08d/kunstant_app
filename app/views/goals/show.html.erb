@@ -1,0 +1,19 @@
+
+
+<p>
+  <strong>Description:</strong>
+  <%= @goal.description %>
+</p>
+
+<p>
+  <strong>Done:</strong>
+  <%= @goal.done %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+ <%= @goal.picture %>
+</p>
+
+<%= link_to 'Edit', edit_goal_path(@goal) %> |
+<%= link_to 'Back', goals_path %>
